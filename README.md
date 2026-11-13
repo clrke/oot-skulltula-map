@@ -23,6 +23,10 @@ Locations and numbering come from the Nintendo Life guide [All Gold Skulltula Lo
 
 This is an unofficial fan project, not affiliated with or endorsed by Nintendo or Nintendo Life. The map is original artwork, not Nintendo's. Child/adult labels not stated by the guide are marked "inferred", and a few entries carry notes where the guide's own data looks inconsistent.
 
+## Privacy
+
+Your progress is stored only in your browser (localStorage). The live site uses Google Analytics (gtag.js) to count visits; nothing you tick is sent anywhere.
+
 ## Run locally
 
 It is plain HTML, CSS and JavaScript with no build step. Serve the folder with any static server:
