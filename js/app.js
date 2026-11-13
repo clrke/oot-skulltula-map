@@ -1,4 +1,4 @@
-/* Gold Skulltula map & checklist. Vanilla JS, no dependencies. */
+/* Gold Skulltula map. Vanilla JS, no dependencies. */
 (function () {
   'use strict';
 
@@ -31,45 +31,22 @@
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
 
   // ---------- state ----------
-  var S = { collected: new Set(), owned: new Set(), age: 'all', night: false, hide: false, canget: false, q: '' };
-  var data = [], byN = {}, pins = {}, rows = {}, regionById = {}, dungeonById = {}, current = null;
+  var S = { owned: new Set(), age: 'all', night: false, canget: false, q: '' };
+  var data = [], byN = {}, pins = {}, regionById = {}, dungeonById = {}, current = null;
 
   function load() {
     try {
       var s = JSON.parse(localStorage.getItem(STORE) || '{}');
-      (s.collected || []).forEach(function (n) { if (n >= 1 && n <= 100) S.collected.add(n); });
       (s.owned || []).forEach(function (i) { if (ITEMS.indexOf(i) >= 0) S.owned.add(i); });
-      ['age', 'night', 'hide', 'canget'].forEach(function (k) { if (k in s) S[k] = s[k]; });
+      ['age', 'night', 'canget'].forEach(function (k) { if (k in s) S[k] = s[k]; });
     } catch (e) { /* ignore corrupt storage */ }
   }
   function save() {
     try {
       localStorage.setItem(STORE, JSON.stringify({
-        collected: Array.from(S.collected).sort(function (a, b) { return a - b; }),
-        owned: Array.from(S.owned), age: S.age, night: S.night, hide: S.hide, canget: S.canget
+        owned: Array.from(S.owned), age: S.age, night: S.night, canget: S.canget
       }));
     } catch (e) { /* storage full or disabled */ }
-  }
-
-  // ---------- progress codes ----------
-  function encode() {
-    var bytes = new Uint8Array(13);
-    S.collected.forEach(function (n) { bytes[(n - 1) >> 3] |= 1 << ((n - 1) & 7); });
-    var bin = '';
-    bytes.forEach(function (b) { bin += String.fromCharCode(b); });
-    return 'GS1-' + btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-  }
-  function decode(code) {
-    var m = /^GS1-([A-Za-z0-9_-]{16,18})$/.exec(code.trim());
-    if (!m) return null;
-    var b64 = m[1].replace(/-/g, '+').replace(/_/g, '/');
-    while (b64.length % 4) b64 += '=';
-    var bin;
-    try { bin = atob(b64); } catch (e) { return null; }
-    if (bin.length !== 13) return null;
-    var set = new Set();
-    for (var n = 1; n <= 100; n++) if (bin.charCodeAt((n - 1) >> 3) & (1 << ((n - 1) & 7))) set.add(n);
-    return set;
   }
 
   // ---------- logic ----------
@@ -87,7 +64,6 @@
     if (S.age === 'child' && s.age === 'adult') return false;
     if (S.age === 'adult' && s.age === 'child') return false;
     if (S.night && !s.night) return false;
-    if (S.hide && S.collected.has(s.n)) return false;
     if (S.q) {
       var q = S.q.toLowerCase().trim();
       if (/^#?\d+$/.test(q)) return String(s.n) === q.replace('#', '');
@@ -187,9 +163,6 @@
           el('circle', { r: 6.5, 'class': 'moon-bg' }, m);
           el('path', { d: 'M1.8 -4 A4.4 4.4 0 1 0 1.8 4 A3.4 3.4 0 1 1 1.8 -4 Z', 'class': 'moon' }, m);
         }
-        var c = el('g', { 'class': 'badge-check', transform: 'translate(11 11)' }, g);
-        el('circle', { r: 6.5, 'class': 'check-bg' }, c);
-        el('path', { d: 'M-3.2 0 L-0.8 2.6 L3.6 -2.8', 'class': 'check' }, c);
         el('title', {}, g).textContent = '#' + s.n + ' ' + s.place;
         pins[s.n] = g;
       });
@@ -410,7 +383,6 @@
     var note = $('card-note');
     note.hidden = !s.note;
     note.textContent = s.note ? 'Note: ' + s.note : '';
-    $('card-collected').checked = S.collected.has(n);
     $('card-src').href = s.source;
     card.hidden = false;
     setHashQuiet(String(n));
@@ -433,89 +405,28 @@
     openCard(n, { zoom: true });
   }
 
-  // ---------- checklist ----------
-  function buildList() {
-    var groups = $('groups'), order = [];
-    data.forEach(function (s) { if (order.indexOf(s.regionId) < 0) order.push(s.regionId); });
-    var html = '';
-    order.forEach(function (rid) {
-      var r = regionById[rid];
-      html += '<details class="group" open data-group="' + rid + '"><summary><span class="g-name">' + esc(r.name) + '</span>' +
-        '<span class="g-count" data-gcount="' + rid + '"></span></summary>' +
-        '<a class="g-map" href="#' + rid + '" aria-label="Show ' + esc(r.name) + ' on the map">map</a><ul>';
-      data.filter(function (s) { return s.regionId === rid; }).forEach(function (s) {
-        var tags = '<span class="tag t-' + s.age + '">' + (s.age === 'either' ? 'C/A' : s.age === 'child' ? 'Child' : 'Adult') + '</span>' +
-          (s.night ? '<span class="tag t-night">Night</span>' : '');
-        html += '<li class="row" data-row="' + s.n + '">' +
-          '<input type="checkbox" id="c' + s.n + '" data-n="' + s.n + '">' +
-          '<label for="c' + s.n + '"><span class="r-num">' + s.n + '</span><span class="r-place">' + esc(s.place) + '</span></label>' +
-          '<span class="r-tags">' + tags + '</span>' +
-          '<button type="button" class="r-go" data-go="' + s.n + '" aria-label="Show #' + s.n + ' on the map">⌖</button></li>';
-      });
-      html += '</ul></details>';
-    });
-    groups.innerHTML = html;
-    data.forEach(function (s) { rows[s.n] = groups.querySelector('[data-row="' + s.n + '"]'); });
-    groups.addEventListener('change', function (e) {
-      if (e.target.matches('input[data-n]')) setCollected(+e.target.getAttribute('data-n'), e.target.checked);
-    });
-    groups.addEventListener('click', function (e) {
-      var go = e.target.closest('[data-go]');
-      if (go) { showView('map'); openCard(+go.getAttribute('data-go'), { zoom: true }); return; }
-      var gm = e.target.closest('.g-map');
-      if (gm) { e.preventDefault(); showView('map'); zoomToRegion(gm.getAttribute('href').slice(1), true); }
-    });
-  }
-
-  function setCollected(n, on) {
-    if (on) S.collected.add(n); else S.collected.delete(n);
-    save(); refresh();
-  }
-
-  function renderProgress() {
-    var c = S.collected.size;
-    ['count', 'count-top', 'count-tab'].forEach(function (id) { $(id).textContent = c; });
-    $('track-fill').style.width = c + '%';
-    var next = REWARDS.filter(function (r) { return r.at > c; })[0];
-    $('next-reward').innerHTML = next ? 'Next: <strong>' + esc(next.name) + '</strong> in ' + (next.at - c) : '<strong>All rewards earned!</strong>';
+  // ---------- rewards ----------
+  function renderRewards() {
     $('rewards').innerHTML = REWARDS.map(function (r) {
-      var cls = c >= r.at ? 'got' : (next && next.at === r.at ? 'next' : '');
-      return '<li class="' + cls + '" style="--at:' + r.at + '"><span class="rw-at">' + r.at + '</span><span class="rw-name">' + esc(r.name) +
-        (r.desc ? ' <small>(' + esc(r.desc) + ')</small>' : '') + '</span>' + (c >= r.at ? '<span class="visually-hidden"> (earned)</span>' : '') + '</li>';
+      return '<li><span class="rw-at">' + r.at + '</span><span class="rw-name">' + esc(r.name) +
+        (r.desc ? ' <small>(' + esc(r.desc) + ')</small>' : '') + '</span></li>';
     }).join('');
-    $('track').setAttribute('data-c', c);
   }
 
   function refresh() {
-    var shown = 0, groupCounts = {};
+    var shown = 0;
     data.forEach(function (s) {
-      var vis = matches(s), got = S.collected.has(s.n), locked = S.canget && !canGet(s);
+      var vis = matches(s), locked = S.canget && !canGet(s);
       var p = pins[s.n];
-      p.classList.toggle('collected', got);
       p.classList.toggle('hidden', !vis);
       p.classList.toggle('locked', locked);
-      p.setAttribute('aria-label', 'Gold Skulltula ' + s.n + ', ' + s.place + ', ' + ageText(s) + (s.night ? ', night' : '') + (got ? ', collected' : '') + (locked ? ', missing items' : ''));
-      if (!vis) p.setAttribute('tabindex', '-1'); else p.setAttribute('tabindex', '0');
-      var row = rows[s.n];
-      row.hidden = !vis;
-      row.classList.toggle('locked', locked);
-      row.classList.toggle('got', got);
-      row.querySelector('input').checked = got;
+      p.setAttribute('aria-label', 'Gold Skulltula ' + s.n + ', ' + s.place + ', ' + ageText(s) + (s.night ? ', night' : '') + (locked ? ', missing items' : ''));
+      p.setAttribute('tabindex', vis ? '0' : '-1');
       if (vis) shown++;
-      var g = groupCounts[s.regionId] || (groupCounts[s.regionId] = { got: 0, all: 0, vis: 0 });
-      g.all++; if (got) g.got++; if (vis) g.vis++;
     });
-    Object.keys(groupCounts).forEach(function (rid) {
-      var g = groupCounts[rid];
-      document.querySelector('[data-gcount="' + rid + '"]').textContent = g.got + '/' + g.all;
-      document.querySelector('[data-group="' + rid + '"]').hidden = !g.vis;
-    });
-    $('empty').hidden = shown > 0;
-    $('shown').textContent = shown === 100 ? 'Showing all 100' : 'Showing ' + shown + ' of 100';
-    var active = (S.age !== 'all') + S.night + S.hide + S.canget + !!S.q;
+    $('shown').textContent = shown === 100 ? 'Showing all 100' : shown ? 'Showing ' + shown + ' of 100' : 'No Gold Skulltulas match these filters.';
+    var active = (S.age !== 'all') + S.night + S.canget + !!S.q;
     $('filter-status').textContent = active ? '(' + active + ' on)' : '';
-    if (current) $('card-collected').checked = S.collected.has(current);
-    renderProgress();
   }
 
   // ---------- filters ----------
@@ -526,7 +437,7 @@
     }).join('');
     var sync = function () {
       document.querySelectorAll('input[name=age]').forEach(function (r) { r.checked = r.value === S.age; });
-      $('f-night').checked = S.night; $('f-hide').checked = S.hide; $('f-canget').checked = S.canget;
+      $('f-night').checked = S.night; $('f-canget').checked = S.canget;
       chips.querySelectorAll('input').forEach(function (c) { c.checked = S.owned.has(c.value); });
       $('owned').classList.toggle('dim', !S.canget);
     };
@@ -534,7 +445,7 @@
     document.querySelectorAll('input[name=age]').forEach(function (r) {
       r.addEventListener('change', function () { S.age = r.value; save(); refresh(); });
     });
-    [['f-night', 'night'], ['f-hide', 'hide'], ['f-canget', 'canget']].forEach(function (p) {
+    [['f-night', 'night'], ['f-canget', 'canget']].forEach(function (p) {
       $(p[0]).addEventListener('change', function (e) { S[p[1]] = e.target.checked; save(); sync(); refresh(); });
     });
     chips.addEventListener('change', function (e) {
@@ -549,32 +460,6 @@
       clearTimeout(qt);
       qt = setTimeout(function () { S.q = e.target.value; refresh(); }, 80);
     });
-  }
-
-  // ---------- save / load codes ----------
-  function initSave() {
-    var msg = $('save-msg');
-    $('export').onclick = function () {
-      var code = encode(), f = $('export-code');
-      f.value = code; f.select();
-      var ok = function () { msg.textContent = 'Code copied to clipboard.'; };
-      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(code).then(ok, function () { msg.textContent = 'Select the code and copy it.'; });
-      else msg.textContent = 'Select the code and copy it.';
-    };
-    $('import-form').addEventListener('submit', function (e) {
-      e.preventDefault();
-      var set = decode($('import-code').value);
-      if (!set) { msg.textContent = 'That code is not valid. Codes look like GS1-xxxxxxxxxxxxxxxxx.'; return; }
-      if (!confirm('Replace your current progress (' + S.collected.size + ') with the imported one (' + set.size + ')?')) return;
-      S.collected = set; save(); refresh();
-      $('import-code').value = '';
-      msg.textContent = 'Imported ' + set.size + ' Gold Skulltulas.';
-    });
-    $('reset').onclick = function () {
-      if (!confirm('Reset all progress? This clears every ticked Gold Skulltula in this browser.')) return;
-      S.collected.clear(); save(); refresh();
-      msg.textContent = 'Progress reset.';
-    };
   }
 
   // ---------- views (mobile tabs) ----------
@@ -592,9 +477,8 @@
     drawRegions();
     data.forEach(function (s) { s._hay = haystack(s); });
     drawPins();
-    buildList();
+    renderRewards();
     initFilters();
-    initSave();
     initPanZoom();
     apply(fullView());
     refresh();
@@ -602,7 +486,6 @@
     $('card-close').onclick = closeCard;
     $('card-prev').onclick = function () { step(-1); };
     $('card-next').onclick = function () { step(1); };
-    $('card-collected').addEventListener('change', function (e) { if (current) setCollected(current, e.target.checked); });
     $('card-region').onclick = function () {
       var s = byN[current];
       if (s.dungeonId) zoomToDungeon(s.dungeonId, false); else zoomToRegion(s.regionId, false);

@@ -1,6 +1,6 @@
 # Gold Skulltula Map: Ocarina of Time (Switch 2)
 
-An unofficial, interactive map and checklist for all 100 Gold Skulltulas in *The Legend of Zelda: Ocarina of Time* on Switch 2.
+An unofficial, interactive map for all 100 Gold Skulltulas in *The Legend of Zelda: Ocarina of Time* on Switch 2.
 
 **Live site: https://clrke.github.io/oot-skulltula-map/**
 
@@ -11,9 +11,8 @@ An unofficial, interactive map and checklist for all 100 Gold Skulltulas in *The
 - An original, hand-drawn SVG map of Hyrule with a numbered pin for every Skulltula, grouped by region and dungeon.
 - Pin colour and shape show child, adult or either; a moon badge marks night-only ones.
 - Click a pin for a short hint, the items you need and a link to the full guide entry.
-- A checklist synced with the map. Progress is saved in your browser, with export and import as a short code.
-- A reward track (10 / 20 / 30 / 40 / 50 / 100) showing your next reward.
-- Filters: child or adult, night only, hide collected, search, and "what I can get now" based on the items you tick.
+- The House of Skulltula rewards (10 / 20 / 30 / 40 / 50 / 100).
+- Filters: child or adult, night only, search, and "what I can get now" based on the items you tick.
 - Deep links: `#12` opens Skulltula 12.
 - Works offline after the first load, and on mobile.
 
@@ -25,7 +24,7 @@ This is an unofficial fan project, not affiliated with or endorsed by Nintendo o
 
 ## Privacy
 
-Your progress is stored only in your browser (localStorage). The live site uses Google Analytics (gtag.js) to count visits; nothing you tick is sent anywhere.
+The live site uses Google Analytics (gtag.js) to count visits. Your filter settings are stored only in your browser (localStorage).
 
 ## Run locally
 
