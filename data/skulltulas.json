@@ -1,0 +1,1582 @@
+[
+ {
+  "n": 1,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Behind the Kokiri Shop, Kokiri Forest",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Find the patch of soft soil at the back of the shop and let a bug loose on it to draw the Skulltula out.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-1"
+ },
+ {
+  "n": 2,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "House of the Twins, Kokiri Forest",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "After dark it clings to the Twins' house in the south-east of the village. Pull yourself over with the Hookshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-2"
+ },
+ {
+  "n": 3,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Westernmost house, Kokiri Forest",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": true,
+  "items": [],
+  "hint": "At night, check the back wall of the house at the far west side of the village.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-3"
+ },
+ {
+  "n": 4,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Compass room, Deku Tree",
+  "dungeon": true,
+  "dungeonId": "deku-tree",
+  "dungeonName": "Inside the Deku Tree",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "In the room that holds the Compass, raise the platforms and cross to the left-hand area; it's on the wall there.",
+  "note": "The guide leaves the items field blank for this entry.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-4"
+ },
+ {
+  "n": 5,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Basement vines, Deku Tree",
+  "dungeon": true,
+  "dungeonId": "deku-tree",
+  "dungeonName": "Inside the Deku Tree",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Slingshot"
+  ],
+  "hint": "Fall through the web in the main chamber, then face the vines that lead back up. It's just overhead.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-5"
+ },
+ {
+  "n": 6,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Grate by the torch, Deku Tree",
+  "dungeon": true,
+  "dungeonId": "deku-tree",
+  "dungeonName": "Inside the Deku Tree",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Look for a grate next to a torch and some webbing. Jump-attack it, or shoot it with the Slingshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-6"
+ },
+ {
+  "n": 7,
+  "regionId": "kokiri-forest",
+  "region": "Kokiri Forest",
+  "place": "Gohma Larva room, Deku Tree",
+  "dungeon": true,
+  "dungeonId": "deku-tree",
+  "dungeonName": "Inside the Deku Tree",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Deku Stick",
+   "Slingshot"
+  ],
+  "hint": "In the room where three Gohma Larvae drop in, burn the left-hand web, then go through the short tunnel to the vines.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-7"
+ },
+ {
+  "n": 8,
+  "regionId": "hyrule-field",
+  "region": "Hyrule Field",
+  "place": "Lone tree west of the Kokiri Forest exit",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Coming out of Kokiri Forest, head for the solitary tree to the west and roll into it to knock the Skulltula down.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-8"
+ },
+ {
+  "n": 9,
+  "regionId": "hyrule-field",
+  "region": "Hyrule Field",
+  "place": "Grotto south-east of Lon Lon Ranch",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "hint": "Bomb the cracked ground south-east of the ranch. Clear the ordinary Skulltula inside as a child first; back as an adult, a wooden box there holds the gold one.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-9"
+ },
+ {
+  "n": 10,
+  "regionId": "hyrule-field",
+  "region": "Hyrule Field",
+  "place": "Grotto south of Lon Lon Ranch",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "hint": "Further south of the ranch, bomb another cracked patch and drop in. Beat the big Skulltula, then look up the wall.",
+  "note": "The token is up on a wall; the guide lists only Bombs, so you may want a ranged item to reach it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-10"
+ },
+ {
+  "n": 11,
+  "regionId": "hyrule-castle",
+  "region": "Castle Town & Hyrule Castle",
+  "place": "Guard's House, Castle Market",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Among the pots at the far end of the guard house, one of two boxes is wobbling. Roll into it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-11"
+ },
+ {
+  "n": 12,
+  "regionId": "hyrule-castle",
+  "region": "Castle Town & Hyrule Castle",
+  "place": "Tree by the moat vines, Hyrule Castle",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "On the way to wake Talon with the Cucco egg, roll into the tree to the right of the vines that lead down to the moat.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-12"
+ },
+ {
+  "n": 13,
+  "regionId": "hyrule-castle",
+  "region": "Castle Town & Hyrule Castle",
+  "place": "Lone tree near Talon, Hyrule Castle",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Song of Storms"
+  ],
+  "hint": "Play the Song of Storms by the lone tree just before Talon's spot. The flower patch on the ground opens into a hole with the Skulltula.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-13"
+ },
+ {
+  "n": 14,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Construction site, Kakariko Village",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [],
+  "hint": "At night, walk around the building site in the middle of the village.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-14"
+ },
+ {
+  "n": 15,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "House of Skulltula, Kakariko Village",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [],
+  "hint": "At night it sits on the front wall of the House of Skulltula.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-15"
+ },
+ {
+  "n": 16,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Tree by the village entrance, Kakariko Village",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [],
+  "hint": "At night, roll into the lone tree near the village entrance.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-16"
+ },
+ {
+  "n": 17,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Watchtower, Kakariko Village",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Slingshot"
+  ],
+  "hint": "At night it's on the ladder of the watchtower near the Death Mountain gate. Shoot it down with the Slingshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-17"
+ },
+ {
+  "n": 18,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "House by the Death Mountain Trail gate, Kakariko Village",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [],
+  "hint": "At night, check the side wall of the north-west house beside the gate up to Death Mountain Trail.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-18"
+ },
+ {
+  "n": 19,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Cliff above Impa's House, Kakariko Village",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Hookshot up the vines left of Impa's House and get onto the roof. At night it's on the cliff nearby; Hookshot it from there.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-19"
+ },
+ {
+  "n": 20,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Soft soil, Kakariko Graveyard",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Turn left just inside the graveyard and drop a bug on the mound of soft soil.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-20"
+ },
+ {
+  "n": 21,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Behind Dampé's hut, Kakariko Graveyard",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "At night it hides behind Dampé's hut. Fetch the token with the Boomerang.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-21"
+ },
+ {
+  "n": 22,
+  "regionId": "lon-lon-ranch",
+  "region": "Lon Lon Ranch",
+  "place": "Building left of the entrance, Lon Lon Ranch",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": false,
+  "night": true,
+  "items": [
+   "Boomerang",
+   "Hookshot"
+  ],
+  "itemsMode": "any",
+  "hint": "Entering the ranch at night, look at the wall of the building on your left. Boomerang it as a child or Hookshot it as an adult.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-22"
+ },
+ {
+  "n": 23,
+  "regionId": "lon-lon-ranch",
+  "region": "Lon Lon Ranch",
+  "place": "Storage shed, Lon Lon Ranch",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "In the storage shed where the Piece of Heart is, it's up on the vines. Use the Boomerang.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-23"
+ },
+ {
+  "n": 24,
+  "regionId": "lon-lon-ranch",
+  "region": "Lon Lon Ranch",
+  "place": "Garden behind the buildings, Lon Lon Ranch",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "From the entrance take the left path around the buildings to the garden at the back, then roll into the thin tree.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-24"
+ },
+ {
+  "n": 25,
+  "regionId": "gerudo-valley",
+  "region": "Gerudo Valley",
+  "place": "Waterfall ledge, Gerudo Valley",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Glide down with a Cucco to the ledge by the waterfall where a Gerudo looks after a cow, then drop a bug on the soil to the left.",
+  "note": "The guide calls this area \"Gerudo Desert\". It suggests cutting grass and bushes around Lon Lon Ranch for bugs.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-25"
+ },
+ {
+  "n": 26,
+  "regionId": "gerudo-valley",
+  "region": "Gerudo Valley",
+  "place": "Under the wooden bridge, Gerudo Valley",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "At night, just inside the valley, drop down beneath the wooden bridge. It's on the wall; use the Boomerang.",
+  "note": "The guide's location tag doesn't say Night, but its directions say to come at night.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-26"
+ },
+ {
+  "n": 27,
+  "regionId": "gerudo-valley",
+  "region": "Gerudo Valley",
+  "place": "Behind the carpenters' house, Gerudo Valley",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "At night, look at the back wall of the carpenters' house and Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-27"
+ },
+ {
+  "n": 28,
+  "regionId": "gerudo-valley",
+  "region": "Gerudo Valley",
+  "place": "Rocks south of the carpenters' house, Gerudo Valley",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "South of the carpenters' house, look up at the rocks above you and Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-28"
+ },
+ {
+  "n": 29,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Soft soil by the Lakeside Laboratory",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Release a bug onto the soft soil beside the Lakeside Laboratory.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-29"
+ },
+ {
+  "n": 30,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Cliff crawlspace, south shore",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": false,
+  "night": false,
+  "items": [],
+  "hint": "At the far south of the lake, a small ledge has a hole into the cliff. Crawl through as a child to reach it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-30"
+ },
+ {
+  "n": 31,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Lakeside Laboratory wall",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "At night it's on the outside of the Lakeside Laboratory. Grab it with the Boomerang.",
+  "note": "The guide's location tag doesn't say Night, but its directions say to come at night.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-31"
+ },
+ {
+  "n": 32,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Tree on the central island",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "The Longshot lets you reach the top of the dead trunk on the lake's central island, where it waits.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-32"
+ },
+ {
+  "n": 33,
+  "regionId": "lost-woods",
+  "region": "Lost Woods",
+  "place": "Past the Skull Kid, Lost Woods",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Go left from the entrance, then left again in the Skull Kid's clearing. Drop a bug in the soft soil of the next area.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-33"
+ },
+ {
+  "n": 34,
+  "regionId": "lost-woods",
+  "region": "Lost Woods",
+  "place": "Business Scrub clearing, Lost Woods",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "From the entrance go right, left, right, left, left to the clearing with two Business Scrubs, and drop a bug in its soft soil.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-34"
+ },
+ {
+  "n": 35,
+  "regionId": "lost-woods",
+  "region": "Lost Woods",
+  "place": "Bean plant, Business Scrub clearing, Lost Woods",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Magic Beans"
+  ],
+  "hint": "In that same Business Scrub clearing, plant a Magic Bean as a child. Come back as an adult and ride the plant up to it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-35"
+ },
+ {
+  "n": 36,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Soft soil by Dodongo's Cavern",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Drop a bug into the soft-soil patch beside Dodongo's Cavern's mouth.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-36"
+ },
+ {
+  "n": 37,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Cracked wall on the lower trail",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "hint": "Once you have bombs, blow open the cracked wall on the trail close to Kakariko.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-37"
+ },
+ {
+  "n": 38,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Dark boulder below the summit",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Megaton Hammer"
+  ],
+  "hint": "From the summit where Biggoron sits, hop down and smash the dark boulder on the left with the Megaton Hammer.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-38"
+ },
+ {
+  "n": 39,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Dark boulder outside Goron City",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Megaton Hammer"
+  ],
+  "hint": "Another dark boulder, just by the Goron City doorway, hides one. Break it with the Hammer.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-39"
+ },
+ {
+  "n": 40,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "South-east corridor, Dodongo's Cavern",
+  "dungeon": true,
+  "dungeonId": "dodongos-cavern",
+  "dungeonName": "Dodongo's Cavern",
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "itemsMode": "optional",
+  "hint": "Take the main hall's south-east door. In the passage beyond, coax a Baby Dodongo over to the cracked right-hand wall so its blast opens it.",
+  "note": "Bombs are optional: a Baby Dodongo can open the wall instead.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-40"
+ },
+ {
+  "n": 41,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Staircase room, Dodongo's Cavern",
+  "dungeon": true,
+  "dungeonId": "dodongos-cavern",
+  "dungeonName": "Dodongo's Cavern",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Slingshot"
+  ],
+  "hint": "Climb to the top of the big staircase room and go round to a wall grate. Shoot the Skulltula with the Slingshot, then climb up for the token.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-41"
+ },
+ {
+  "n": 42,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Round room with two Dodongos, Dodongo's Cavern",
+  "dungeon": true,
+  "dungeonId": "dodongos-cavern",
+  "dungeonName": "Dodongo's Cavern",
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Near the top, before you bomb the statue's eyes, a round room with two Dodongos has one behind its central pillar.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-42"
+ },
+ {
+  "n": 43,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Round chamber past the statue, Dodongo's Cavern",
+  "dungeon": true,
+  "dungeonId": "dodongos-cavern",
+  "dungeonName": "Dodongo's Cavern",
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Go through the statue's mouth and round the next room to another round chamber. Clear the Baby Dodongos and Armos; it's on the wall.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-43"
+ },
+ {
+  "n": 44,
+  "regionId": "death-mountain-trail",
+  "region": "Death Mountain Trail",
+  "place": "Scarecrow ledge, Dodongo's Cavern",
+  "dungeon": true,
+  "dungeonId": "dodongos-cavern",
+  "dungeonName": "Dodongo's Cavern",
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Scarecrow's Song",
+   "Hookshot"
+  ],
+  "hint": "As an adult, go back to the corridor with the cracked wall. Play the Scarecrow's Song by the raised ledge and Hookshot up to it.",
+  "note": "The guide lists only the Scarecrow's Song; its directions also use the Hookshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-44"
+ },
+ {
+  "n": 45,
+  "regionId": "goron-city",
+  "region": "Goron City",
+  "place": "Boulder maze crate, Goron City",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "hint": "Blast through the boulder-filled room with bombs. At the back, by two small chests, roll into the wooden crate.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-45"
+ },
+ {
+  "n": 46,
+  "regionId": "goron-city",
+  "region": "Goron City",
+  "place": "Ceiling near the entrance, Goron City",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "From the city entrance head north, then turn back the way you came. It's on the ceiling; use the Hookshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-46"
+ },
+ {
+  "n": 47,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Crates by the crater entrance",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "At the top of the mountain, enter the crater through the opening right of the Fairy cave. One of the two crates on the left holds it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-47"
+ },
+ {
+  "n": 48,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Soft soil by the Fire Temple entrance",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Drop a bug into the soft soil at the Fire Temple entrance.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-48"
+ },
+ {
+  "n": 49,
+  "regionId": "zoras-river",
+  "region": "Zora's River",
+  "place": "Soft soil by the bean seller, Zora's River",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "Let a bug loose on the soft soil next to the man selling Magic Beans.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-49"
+ },
+ {
+  "n": 50,
+  "regionId": "zoras-river",
+  "region": "Zora's River",
+  "place": "Platform at the river's end",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "At night, at the end of the river, it clings to the side of a platform. Take it out with the Boomerang.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-50"
+ },
+ {
+  "n": 51,
+  "regionId": "zoras-river",
+  "region": "Zora's River",
+  "place": "High cliff near the river's base",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "At night, look high up the cliff near the lower end of the river and Hookshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-51"
+ },
+ {
+  "n": 52,
+  "regionId": "zoras-river",
+  "region": "Zora's River",
+  "place": "High wall near the Zora's Domain entrance",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "At night, look high up at the river's source by the entrance to Zora's Domain, and Hookshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-52"
+ },
+ {
+  "n": 53,
+  "regionId": "zoras-domain",
+  "region": "Zora's Domain",
+  "place": "Near the King's throne, Zora's Domain",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Once the Domain is frozen, look high up close to the King's throne room and Hookshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-53"
+ },
+ {
+  "n": 54,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Thin tree, south end of Zora's Fountain",
+  "dungeon": false,
+  "age": "either",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Roll into the slender tree at the south end of the fountain.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-54"
+ },
+ {
+  "n": 55,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Cliff south of Jabu-Jabu",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "At night, climb the nearby ruins and Boomerang the one on the cliff south of Jabu-Jabu.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-55"
+ },
+ {
+  "n": 56,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Top of the boulder path, Zora's Fountain",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Gauntlets",
+   "Lens of Truth"
+  ],
+  "hint": "Lift the huge boulder at the back of the fountain with the Gauntlets and climb up. The Lens of Truth shows hidden Skulltulas on the way; the gold one is at the top.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-56"
+ },
+ {
+  "n": 57,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Water-level switch room, Jabu-Jabu's Belly",
+  "dungeon": true,
+  "dungeonId": "jabu-jabu",
+  "dungeonName": "Jabu-Jabu's Belly",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "In the room where you stomp a switch to raise the water, climb the vines to the platform on the left.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-57"
+ },
+ {
+  "n": 58,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Ruto's drop room, north wall, Jabu-Jabu's Belly",
+  "dungeon": true,
+  "dungeonId": "jabu-jabu",
+  "dungeonName": "Jabu-Jabu's Belly",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "In the room where Princess Ruto falls through the floor, Boomerang the one on the north wall.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-58"
+ },
+ {
+  "n": 59,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Ruto's drop room, north-west tunnel, Jabu-Jabu's Belly",
+  "dungeon": true,
+  "dungeonId": "jabu-jabu",
+  "dungeonName": "Jabu-Jabu's Belly",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "Same room: another hangs from the ceiling of the tunnel to the north-west. Boomerang it too.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-59"
+ },
+ {
+  "n": 60,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Vine pillar before the boss, Jabu-Jabu's Belly",
+  "dungeon": true,
+  "dungeonId": "jabu-jabu",
+  "dungeonName": "Jabu-Jabu's Belly",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang",
+   "Slingshot"
+  ],
+  "itemsMode": "any",
+  "hint": "On the way to the boss, a tall vine-covered pillar has one near the top. Boomerang it, or shoot it with the Slingshot and climb.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-60"
+ },
+ {
+  "n": 61,
+  "regionId": "hyrule-castle",
+  "region": "Castle Town & Hyrule Castle",
+  "place": "Ruins outside Ganon's Castle",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Coming from town into the castle grounds, keep right. At night one is up on the ruins; Hookshot it.",
+  "note": "The guide files this under Ganon's Castle, but it's on the grounds outside, not inside the dungeon.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-61"
+ },
+ {
+  "n": 62,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "Top of the meadow maze",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Work up through the meadow's maze to its upper end; it's on a wall on the right-hand side. Hookshot it.",
+  "note": "The guide calls this area \"Sacred Forest Grove\".",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-62"
+ },
+ {
+  "n": 63,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "Entrance vines, Forest Temple",
+  "dungeon": true,
+  "dungeonId": "forest-temple",
+  "dungeonName": "Forest Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "In the entrance area, it's at the top of the vines on the right. Hookshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-63"
+ },
+ {
+  "n": 64,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "Main hall, Forest Temple",
+  "dungeon": true,
+  "dungeonId": "forest-temple",
+  "dungeonName": "Forest Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "In the main hall, it's on the back wall. Hookshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-64"
+ },
+ {
+  "n": 65,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "North-west courtyard, Forest Temple",
+  "dungeon": true,
+  "dungeonId": "forest-temple",
+  "dungeonName": "Forest Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "In the north-west courtyard with the pools, it's on the south wall. Hookshot it once you're close enough.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-65"
+ },
+ {
+  "n": 66,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "North-east courtyard, Forest Temple",
+  "dungeon": true,
+  "dungeonId": "forest-temple",
+  "dungeonName": "Forest Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Scarecrow's Song"
+  ],
+  "hint": "In the north-east courtyard with the moat, use the Scarecrow's Song to get up to the east ledge where it waits.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-66"
+ },
+ {
+  "n": 67,
+  "regionId": "sacred-forest-meadow",
+  "region": "Sacred Forest Meadow",
+  "place": "Rotating-pillar room, Forest Temple",
+  "dungeon": true,
+  "dungeonId": "forest-temple",
+  "dungeonName": "Forest Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "In the final room ahead of the boss, rotate the middle pillar so different alcoves open up. It's in the southernmost alcove.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-67"
+ },
+ {
+  "n": 68,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Lava room, north-east passage, Fire Temple",
+  "dungeon": true,
+  "dungeonId": "fire-temple",
+  "dungeonName": "Fire Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Song of Time"
+  ],
+  "hint": "In the big lava chamber on 1F, head north and play the Song of Time to open the north-east passage. Dodge the flying tiles inside.",
+  "note": "The guide labels this entry \"Fire Cavern\"; it is in the Fire Temple. The guide lists no items, but its directions use the Song of Time.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-68"
+ },
+ {
+  "n": 69,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Boulder room alcove, Fire Temple",
+  "dungeon": true,
+  "dungeonId": "fire-temple",
+  "dungeonName": "Fire Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Bombs"
+  ],
+  "hint": "In the rolling-boulder room, blow up the north-east wall with a bomb and finish it off in the little alcove behind.",
+  "note": "The guide labels this entry \"Fire Cavern\"; it is in the Fire Temple. The guide lists no items, but its directions use bombs.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-69"
+ },
+ {
+  "n": 70,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Boulder room, Scarecrow spot, Fire Temple",
+  "dungeon": true,
+  "dungeonId": "fire-temple",
+  "dungeonName": "Fire Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Scarecrow's Song",
+   "Hookshot"
+  ],
+  "hint": "Also in the boulder room, play the Scarecrow's Song at the swirl to call Pierre, Hookshot up, ride the lift and climb the vines.",
+  "note": "The guide labels this entry \"Fire Cavern\"; it is in the Fire Temple. The guide lists only the Scarecrow's Song; its directions also use the Hookshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-70"
+ },
+ {
+  "n": 71,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "Megaton Hammer room, Fire Temple",
+  "dungeon": true,
+  "dungeonId": "fire-temple",
+  "dungeonName": "Fire Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "On 5F, in the Megaton Hammer's room, Hookshot the one on the wall.",
+  "note": "The guide labels this entry \"Fire Cavern\"; it is in the Fire Temple.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-71"
+ },
+ {
+  "n": 72,
+  "regionId": "death-mountain-crater",
+  "region": "Death Mountain Crater",
+  "place": "First floor north-west room, Fire Temple",
+  "dungeon": true,
+  "dungeonId": "fire-temple",
+  "dungeonName": "Fire Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Megaton Hammer"
+  ],
+  "hint": "Back on the first floor, use the Hammer to get into the north-west room. Avoid the flying tiles, beat the Like Like, then take it.",
+  "note": "The guide labels this entry \"Fire Cavern\"; it is in the Fire Temple.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-72"
+ },
+ {
+  "n": 73,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Spinning blade room, Ice Cavern",
+  "dungeon": true,
+  "dungeonId": "ice-cavern",
+  "dungeonName": "Ice Cavern",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Where the spinning blade circles the room, Hookshot the one on the wall.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-73"
+ },
+ {
+  "n": 74,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "End of the east passage, Ice Cavern",
+  "dungeon": true,
+  "dungeonId": "ice-cavern",
+  "dungeonName": "Ice Cavern",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "Follow the eastern passage to its very end; it's on the wall there.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-74"
+ },
+ {
+  "n": 75,
+  "regionId": "zoras-fountain",
+  "region": "Zora's Fountain",
+  "place": "Sliding block room, Ice Cavern",
+  "dungeon": true,
+  "dungeonId": "ice-cavern",
+  "dungeonName": "Ice Cavern",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Hookshot"
+  ],
+  "hint": "In the sliding-block room it's on the ceiling, so you need the Hookshot.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-75"
+ },
+ {
+  "n": 76,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Diving pool, Lakeside Laboratory",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Iron Boots"
+  ],
+  "hint": "Put on the Iron Boots and sink to the bottom of the lab's pool, then roll into the wooden crate.",
+  "note": "The guide recommends wearing the Zora Tunic for this one.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-76"
+ },
+ {
+  "n": 77,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Basement east chamber, Water Temple",
+  "dungeon": true,
+  "dungeonId": "water-temple",
+  "dungeonName": "Water Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Iron Boots",
+   "Hookshot"
+  ],
+  "hint": "Sink to the basement with the Iron Boots and find the small chamber to the east. Hookshot the one on the wall.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-77"
+ },
+ {
+  "n": 78,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Inside the central pillar, Water Temple",
+  "dungeon": true,
+  "dungeonId": "water-temple",
+  "dungeonName": "Water Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "With the water low and the central pillar open, go inside and Longshot up to the highest ceiling point, then Longshot the Skulltula.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-78"
+ },
+ {
+  "n": 79,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Second floor east room, Water Temple",
+  "dungeon": true,
+  "dungeonId": "water-temple",
+  "dungeonName": "Water Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Iron Boots",
+   "Bombchu"
+  ],
+  "hint": "Set the water level so you can reach the second floor, then blow open the cracked wall to the eastern room (a Bombchu works best). It's inside.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-79"
+ },
+ {
+  "n": 80,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Whirlpool river, Water Temple",
+  "dungeon": true,
+  "dungeonId": "water-temple",
+  "dungeonName": "Water Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Iron Boots",
+   "Hookshot"
+  ],
+  "hint": "After Dark Link, walk the whirlpool river in Iron Boots. About halfway along, Hookshot the one on the wall while underwater.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-80"
+ },
+ {
+  "n": 81,
+  "regionId": "lake-hylia",
+  "region": "Lake Hylia",
+  "place": "Behind the waterfall, Water Temple",
+  "dungeon": true,
+  "dungeonId": "water-temple",
+  "dungeonName": "Water Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Iron Boots",
+   "Hookshot"
+  ],
+  "hint": "Shortly before the Boss Key, a small corridor has a waterfall hiding it. Hookshot it and watch for the rolling boulders.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-81"
+ },
+ {
+  "n": 82,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Lower east room, Bottom of the Well",
+  "dungeon": true,
+  "dungeonId": "bottom-of-the-well",
+  "dungeonName": "Bottom of the Well",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "Take the north-east passage to the eastern chamber and head down a level. Deal with the Like Like there, then Boomerang the token.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-82"
+ },
+ {
+  "n": 83,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Central chamber, first locked door, Bottom of the Well",
+  "dungeon": true,
+  "dungeonId": "bottom-of-the-well",
+  "dungeonName": "Bottom of the Well",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang",
+   "Lens of Truth"
+  ],
+  "hint": "Walk the outer corridor to an alcove the Lens of Truth reveals; its chest has a Small Key. Use it on one of the two doors in the central chamber.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-83"
+ },
+ {
+  "n": 84,
+  "regionId": "kakariko-village",
+  "region": "Kakariko Village",
+  "place": "Central chamber, second locked door, Bottom of the Well",
+  "dungeon": true,
+  "dungeonId": "bottom-of-the-well",
+  "dungeonName": "Bottom of the Well",
+  "age": "child",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Boomerang",
+   "Deku Stick"
+  ],
+  "hint": "Swim to the western chamber and burn the coffin at the far end with a Deku Stick to get another key. Open the other central door with it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-84"
+ },
+ {
+  "n": 85,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Octagonal room, Shadow Temple",
+  "dungeon": true,
+  "dungeonId": "shadow-temple",
+  "dungeonName": "Shadow Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "In the eight-sided room, it's sitting on the floor.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-85"
+ },
+ {
+  "n": 86,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "East room, Shadow Temple",
+  "dungeon": true,
+  "dungeonId": "shadow-temple",
+  "dungeonName": "Shadow Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Lens of Truth"
+  ],
+  "hint": "Use the Lens of Truth to find your way to a room on the east side, where it waits.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-86"
+ },
+ {
+  "n": 87,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Fan corridor, Shadow Temple",
+  "dungeon": true,
+  "dungeonId": "shadow-temple",
+  "dungeonName": "Shadow Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "In the corridor with the big fans, look down between the platforms and Longshot it. Don't get blown off.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-87"
+ },
+ {
+  "n": 88,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Falling spikes room, Shadow Temple",
+  "dungeon": true,
+  "dungeonId": "shadow-temple",
+  "dungeonName": "Shadow Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "Where spikes drop from the ceiling, circle to the north edge and Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-88"
+ },
+ {
+  "n": 89,
+  "regionId": "kakariko-graveyard",
+  "region": "Kakariko Graveyard",
+  "place": "Scarecrow by the lift, Shadow Temple",
+  "dungeon": true,
+  "dungeonId": "shadow-temple",
+  "dungeonName": "Shadow Temple",
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Scarecrow's Song",
+   "Longshot"
+  ],
+  "hint": "Before boarding the boat, play the Scarecrow's Song by the elevator to summon Pierre, then Longshot up to it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-89"
+ },
+ {
+  "n": 90,
+  "regionId": "gerudo-fortress",
+  "region": "Gerudo's Fortress",
+  "place": "Horseback Archery Range, Gerudo's Fortress",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "At night, go into the archery range and head all the way down. Look up at the target and Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-90"
+ },
+ {
+  "n": 91,
+  "regionId": "gerudo-fortress",
+  "region": "Gerudo's Fortress",
+  "place": "Top of the fortress, Gerudo's Fortress",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": true,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "At night, climb up onto the fortress roof; it's on a wall. Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-91"
+ },
+ {
+  "n": 92,
+  "regionId": "haunted-wasteland",
+  "region": "Haunted Wasteland",
+  "place": "Below the desert structure, Haunted Wasteland",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [],
+  "hint": "Follow the flags across the desert until you reach a structure. Go below, climb down the ladder, and it's on the wall.",
+  "note": "The guide calls this area \"Mirage Desert\".",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-92"
+ },
+ {
+  "n": 93,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Soft soil by the Spirit Temple, Desert Colossus",
+  "dungeon": false,
+  "age": "child",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Bottle Bug"
+  ],
+  "hint": "As a child, let a bug loose on the soil patch beside the Spirit Temple doors.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-93"
+ },
+ {
+  "n": 94,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Bean plant platform, Desert Colossus",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Magic Beans"
+  ],
+  "hint": "Plant a Magic Bean in the soft soil as a child. Come back as an adult and ride the plant until it drops you on the Skulltula's platform.",
+  "note": "The guide calls this area \"Evil Desert Colossus\".",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-94"
+ },
+ {
+  "n": 95,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "North cliff, Desert Colossus",
+  "dungeon": false,
+  "age": "adult",
+  "ageInferred": true,
+  "night": false,
+  "items": [
+   "Longshot"
+  ],
+  "hint": "It's on the cliff face at the Colossus's northern edge; Longshot it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-95"
+ },
+ {
+  "n": 96,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Past the child crawlspace, Spirit Temple",
+  "dungeon": true,
+  "dungeonId": "spirit-temple",
+  "dungeonName": "Spirit Temple",
+  "age": "child",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "After the child-sized crawlspace, go through the right-hand door. It's up on a grate to the right; Boomerang it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-96"
+ },
+ {
+  "n": 97,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Behind the statue, Spirit Temple",
+  "dungeon": true,
+  "dungeonId": "spirit-temple",
+  "dungeonName": "Spirit Temple",
+  "age": "child",
+  "ageInferred": false,
+  "night": false,
+  "items": [],
+  "hint": "In the big statue chamber, go to the north-east corner at ground level. It's tucked behind the statue.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-97"
+ },
+ {
+  "n": 98,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Corridor before the Iron Knuckle, Spirit Temple",
+  "dungeon": true,
+  "dungeonId": "spirit-temple",
+  "dungeonName": "Spirit Temple",
+  "age": "child",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Boomerang"
+  ],
+  "hint": "In the corridor just before the Iron Knuckle fight, turn around and Boomerang the one above you.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-98"
+ },
+ {
+  "n": 99,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "Rolling boulder room, Spirit Temple",
+  "dungeon": true,
+  "dungeonId": "spirit-temple",
+  "dungeonName": "Spirit Temple",
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Song of Time"
+  ],
+  "hint": "In the rolling-boulder room, play the Song of Time to clear the Time Block in an alcove and defeat the Skulltula behind it.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-99"
+ },
+ {
+  "n": 100,
+  "regionId": "desert-colossus",
+  "region": "Desert Colossus",
+  "place": "North-west platform, statue chamber, Spirit Temple",
+  "dungeon": true,
+  "dungeonId": "spirit-temple",
+  "dungeonName": "Spirit Temple",
+  "age": "adult",
+  "ageInferred": false,
+  "night": false,
+  "items": [
+   "Scarecrow's Song",
+   "Longshot"
+  ],
+  "hint": "In the statue chamber, aim for the north-west platform: play the Scarecrow's Song to call Pierre and Longshot up.",
+  "source": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2#gold-skulltula-100"
+ }
+]

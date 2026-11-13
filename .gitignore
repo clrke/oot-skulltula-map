@@ -1,0 +1,6 @@
+# Scraped source material: never commit (copyright)
+data/source-raw.json
+data/parse.py
+data/*.html
+.DS_Store
+node_modules/

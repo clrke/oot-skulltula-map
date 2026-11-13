@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gold Skulltula Map &amp; Checklist — Ocarina of Time (Switch 2)</title>
+<meta name="description" content="Unofficial interactive map and checklist of all 100 Gold Skulltulas in The Legend of Zelda: Ocarina of Time on Switch 2. Track progress, filter by age, night and items.">
+<meta name="theme-color" content="#1c1711">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#checklist">Skip to checklist</a>
+<header class="topbar">
+  <div class="brand">
+    <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true"><use href="#sym-token"/></svg>
+    <div>
+      <h1>Gold Skulltula Map</h1>
+      <p class="sub">Ocarina of Time · Switch 2 · unofficial checklist</p>
+    </div>
+  </div>
+  <div class="top-count" aria-live="polite"><strong id="count-top">0</strong><span> / 100</span></div>
+</header>
+
+<main class="layout" id="layout">
+  <section class="map-wrap" id="map-view" aria-label="Map of Hyrule">
+    <svg id="map" class="map" viewBox="0 0 1600 1100" preserveAspectRatio="xMidYMid meet" role="group" aria-label="Stylised map of Hyrule with numbered Gold Skulltula pins">
+      <defs>
+        <symbol id="sym-token" viewBox="0 0 32 32">
+          <path d="M16 2 L29 9 V23 L16 30 L3 23 V9 Z" fill="#d9b24a" stroke="#6b4a12" stroke-width="2"/>
+          <path d="M16 8c-4.4 0-7 2.9-7 6.4 0 2.3 1.2 3.7 2.6 4.4V22h8.8v-3.2c1.4-.7 2.6-2.1 2.6-4.4C23 10.9 20.4 8 16 8z" fill="#fff4d0" stroke="#6b4a12" stroke-width="1.4"/>
+          <circle cx="13" cy="15" r="1.9" fill="#3a2a0c"/><circle cx="19" cy="15" r="1.9" fill="#3a2a0c"/>
+        </symbol>
+      </defs>
+      <g id="viewport"></g>
+    </svg>
+
+    <div class="map-tools" role="toolbar" aria-label="Map controls">
+      <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+      <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+      <button type="button" id="zoom-reset" aria-label="Show whole map">⤢</button>
+    </div>
+
+    <details class="legend" id="legend">
+      <summary>Legend</summary>
+      <ul>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><circle r="12" class="pin-shape child"/></svg> Child</li>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><rect x="-11.5" y="-11.5" width="23" height="23" rx="4" class="pin-shape adult"/></svg> Adult</li>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><path d="M-13 0 L-6.5 -11.3 H6.5 L13 0 L6.5 11.3 H-6.5 Z" class="pin-shape either"/></svg> Either age</li>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><circle r="9" class="moon-bg"/><path d="M2.5 -5.5 A6 6 0 1 0 2.5 5.5 A4.6 4.6 0 1 1 2.5 -5.5 Z" class="moon"/></svg> Night only</li>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><circle r="9" class="check-bg"/><path d="M-4.5 0 L-1.2 3.6 L5 -3.8" class="check"/></svg> Collected</li>
+        <li><svg viewBox="-16 -16 32 32" aria-hidden="true"><circle r="12" class="pin-shape locked-demo"/></svg> Needs items you don't have</li>
+      </ul>
+    </details>
+
+    <p class="map-credit">Locations &amp; numbering: <a href="https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2" target="_blank" rel="noopener">Nintendo Life guide</a> by Olliemar28 · Unofficial fan tool</p>
+
+    <div class="card" id="card" role="dialog" aria-modal="false" aria-labelledby="card-title" hidden>
+      <button type="button" class="card-close" id="card-close" aria-label="Close details">×</button>
+      <div class="card-head">
+        <span class="card-num" id="card-num">#1</span>
+        <div>
+          <h2 id="card-title">Place</h2>
+          <button type="button" class="linkish" id="card-region">Region</button>
+        </div>
+      </div>
+      <div class="badges" id="card-badges"></div>
+      <div class="card-items" id="card-items"></div>
+      <p class="card-hint" id="card-hint"></p>
+      <p class="card-note" id="card-note" hidden></p>
+      <label class="card-check"><input type="checkbox" id="card-collected"> <span>Collected</span></label>
+      <a class="card-src" id="card-src" href="#" target="_blank" rel="noopener">Full guide entry with screenshot on Nintendo Life ↗</a>
+      <div class="card-nav">
+        <button type="button" id="card-prev">← Prev</button>
+        <button type="button" id="card-next">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <aside class="panel" id="panel" aria-label="Checklist and filters">
+    <section class="progress" aria-labelledby="progress-h">
+      <h2 id="progress-h" class="visually-hidden">Progress</h2>
+      <div class="count-line"><span class="count-big"><strong id="count">0</strong> / 100</span><span class="next" id="next-reward"></span></div>
+      <div class="track" id="track" aria-hidden="true"><div class="track-fill" id="track-fill"></div></div>
+      <ol class="rewards" id="rewards"></ol>
+      <p class="reward-where">Rewards are handed out by the cursed family in the House of Skulltula, Kakariko Village.</p>
+    </section>
+
+    <details class="filters" id="filters" open>
+      <summary>Filters <span class="filter-status" id="filter-status"></span></summary>
+      <div class="filter-body">
+        <label class="search"><span class="visually-hidden">Search</span>
+          <input type="search" id="q" placeholder="Search: number, place, item…" autocomplete="off">
+        </label>
+        <fieldset class="seg">
+          <legend>Age</legend>
+          <label><input type="radio" name="age" value="all" checked><span>All</span></label>
+          <label><input type="radio" name="age" value="child"><span>Child</span></label>
+          <label><input type="radio" name="age" value="adult"><span>Adult</span></label>
+        </fieldset>
+        <div class="toggles">
+          <label><input type="checkbox" id="f-night"> Night only</label>
+          <label><input type="checkbox" id="f-hide"> Hide collected</label>
+          <label><input type="checkbox" id="f-canget"> What I can get now</label>
+        </div>
+        <fieldset class="owned" id="owned">
+          <legend>Items I own <button type="button" class="linkish small" id="owned-all">all</button> · <button type="button" class="linkish small" id="owned-none">none</button></legend>
+          <div class="chips" id="owned-chips"></div>
+          <p class="hint-small">With “What I can get now” on, pins that need an item you haven't ticked are greyed out. A Longshot counts as a Hookshot.</p>
+        </fieldset>
+        <p class="shown" id="shown" aria-live="polite"></p>
+      </div>
+    </details>
+
+    <section class="checklist" id="checklist" aria-labelledby="checklist-h" tabindex="-1">
+      <h2 id="checklist-h">Checklist</h2>
+      <div id="groups"></div>
+      <p class="empty" id="empty" hidden>No Gold Skulltulas match these filters.</p>
+    </section>
+
+    <section class="save" aria-labelledby="save-h">
+      <h2 id="save-h">Save &amp; share progress</h2>
+      <p class="hint-small">Progress is stored in this browser. Copy the code to move it to another device.</p>
+      <div class="save-row">
+        <button type="button" id="export">Export code</button>
+        <input type="text" id="export-code" readonly aria-label="Progress code" placeholder="—">
+      </div>
+      <form class="save-row" id="import-form">
+        <input type="text" id="import-code" aria-label="Paste a progress code" placeholder="Paste code (GS1-…)" autocomplete="off" spellcheck="false">
+        <button type="submit">Import</button>
+      </form>
+      <p class="save-msg" id="save-msg" role="status"></p>
+      <button type="button" class="danger" id="reset">Reset all progress…</button>
+    </section>
+
+    <footer class="about" id="about">
+      <h2>About</h2>
+      <p>The locations, numbering and item requirements come from Nintendo Life's guide <a href="https://www.nintendolife.com/guides/zelda-ocarina-of-time-gold-skulltula-locations-rewards-switch-2" target="_blank" rel="noopener">“Zelda: Ocarina of Time: All Gold Skulltula Locations &amp; Rewards”</a> by <strong>Olliemar28</strong>. Please visit it for full walkthroughs and screenshots.</p>
+      <p>The game itself does not number Gold Skulltulas; the numbers here are the guide's own ordering. The hints are short paraphrases written for this tool, and ages marked “inferred” were worked out from the guide's directions and items rather than stated by it.</p>
+      <p>This is an unofficial fan tool. It is not affiliated with, endorsed by or connected to Nintendo or Nintendo Life. The Legend of Zelda is a trademark of Nintendo. The map is original artwork and not to scale.</p>
+      <p><a href="https://github.com/clrke/oot-skulltula-map" target="_blank" rel="noopener">Source code on GitHub</a> (MIT).</p>
+    </footer>
+  </aside>
+</main>
+
+<nav class="tabbar" aria-label="View">
+  <button type="button" id="tab-map" aria-pressed="true">Map</button>
+  <button type="button" id="tab-list" aria-pressed="false">Checklist <span id="count-tab">0</span>/100</button>
+</nav>
+
+<noscript><p class="noscript">This map needs JavaScript.</p></noscript>
+<script src="js/map-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
