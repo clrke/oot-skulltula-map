@@ -1,5 +1,5 @@
 /* Offline cache: stale-while-revalidate for this site's own files. */
-var CACHE = 'oot-gs-v3';
+var CACHE = 'oot-gs-v4';
 var ASSETS = ['./', 'index.html', 'css/style.css', 'js/map-data.js', 'js/app.js', 'data/skulltulas.json', 'favicon.svg'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ASSETS); }).then(function () { return self.skipWaiting(); }));

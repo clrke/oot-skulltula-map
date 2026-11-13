@@ -207,6 +207,13 @@
     return { x: b.x + b.w / 2 - w / 2, y: b.y + b.h / 2 - h / 2, w: w, h: h };
   }
   function fullView() { return fitView({ x: 0, y: 0, w: H.width, h: H.height }, 10); }
+  // Portrait screens: start with the map filling the height (pan sideways) instead of a thin strip.
+  function startView() {
+    var c = size();
+    if (c.w >= c.h) return fullView();
+    var h = H.height + 20, w = h * c.w / c.h;
+    return { x: H.width / 2 - w / 2, y: -10, w: w, h: h };
+  }
   function clamp(v) {
     var f = fullView(), c = size();
     var minW = Math.max(140, 140 * c.w / c.h);
@@ -480,7 +487,7 @@
     renderRewards();
     initFilters();
     initPanZoom();
-    apply(fullView());
+    apply(startView());
     refresh();
 
     $('card-close').onclick = closeCard;
@@ -496,6 +503,7 @@
     $('tab-map').onclick = function () { showView('map'); };
     $('tab-list').onclick = function () { showView('list'); };
     showView('map');
+    apply(startView());
     window.addEventListener('hashchange', routeHash);
     routeHash();
     document.body.classList.add('ready');
